@@ -1,18 +1,22 @@
-# **[Django Admin Material PRO](https://github.com/app-generator/django-admin-material-pro)**
+# **[Django Admin Argon PRO](https://github.com/app-generator/django-admin-argon-pro)**
 
-**Django** starter styled with **Django Admin Material PRO**, a premium `Boostrap 5` design from [Creative-Tim](https://bit.ly/3fKQZaL)
+**Django** starter styled with **Django Admin Argon PRO**, a premium `Boostrap 5` design from [Creative-Tim](https://bit.ly/3fKQZaL)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 > 👉 **NOTE**: This product `requires a License` in order to access the theme:
 
-**Private REPO**: `git+https://github.com/app-generator/priv-django-admin-material-pro`
+**Private REPO**: `git+https://github.com/app-generator/priv-django-admin-argon-pro`
+
+<br />
+
+> Source UI KIT: https://github.com/app-generator/ct-argon-dashboard-pro
 
 <br />
 
 ## Features: 
 
-- **UI Kit**: Material Dashboard BS5 PRO `v3.0.5` by Creative-Tim
-- [Django Material PRO](https://github.com/app-generator/django-material-dashboard-pro) - `sample project`
+- **UI Kit**: Argon Dashboard BS5 PRO `v2.0.5` by Creative-Tim
+- [Django Argon PRO](https://github.com/app-generator/django-argon-dashboard-pro) - `sample project`
 - **Sections Covered**: 
   - `Admin Section`, reserved for `superusers`
   - `All pages` managed by `Django.contrib.AUTH`
@@ -21,18 +25,18 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-![Material Dashboard BS5 - Modern Dashboard design by Creative-Tim.](https://user-images.githubusercontent.com/51070104/209104783-22f04139-8919-457c-b21d-7383d57f07b1.png)
+![Argon Dashboard 2 PRO](https://user-images.githubusercontent.com/51070104/210501395-be6f5408-2394-49f5-a69b-4b39c814e0a9.png)
 
 <br />
 
-## Why `Django Admin Material PRO`
+## Why `Django Admin Argon PRO`
 
 - Modern [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Design
 - `Responsive Interface`
 - `Minimal Template` overriding
 - `Easy integration`
 
-Material Dashboard 2 PRO makes use of light, surface and movement. The general layout comes with two modes: Light & Dark. Inside the archive you will find multiple example pages on how to use all components. And, of course, every element is documented.
+Argon Dashboard 2 PRO makes use of light, surface and movement. The general layout comes with two modes: Light & Dark. Inside the archive you will find multiple example pages on how to use all components. And, of course, every element is documented.
 
 <br />
 
@@ -43,17 +47,17 @@ Material Dashboard 2 PRO makes use of light, surface and movement. The general l
 > **Install the package** via `PIP` 
 
 ```bash
-$ pip install git+https://github.com/app-generator/priv-django-admin-material-pro.git
+$ pip install git+https://github.com/app-generator/priv-django-admin-argon-pro.git
 ```
 
 <br />
 
-> Add `admin_material_pro` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
+> Add `admin_argon_pro` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_material_pro.apps.AdminMaterialProConfig',
+        'admin_material_pro.apps.AdminArgonProConfig',
         'django.contrib.admin',
     )
 ```
@@ -70,14 +74,14 @@ $ pip install git+https://github.com/app-generator/priv-django-admin-material-pr
 
 <br />
 
-> Add `admin_material_pro` urls in your Django Project `urls.py` file
+> Add `admin_argon_pro` urls in your Django Project `urls.py` file
 
 ```python
     from django.urls import path, include
 
     urlpatterns = [
         ...
-        path('', include('admin_material_pro.urls')),
+        path('', include('admin_argon_pro.urls')),
     ]
 ```
 
@@ -111,21 +115,9 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## Screenshots
 
-![Theme Material Dashboard PRO - Main (Dark-Mode active), crafted by AppSeed.](https://user-images.githubusercontent.com/51070104/209695422-7863697f-e6c5-4b08-b395-422074e399df.jpg)
-
-<br />
-
-> [Django Admin Material PRO](https://github.com/app-generator/django-admin-material-pro) - `Calender` Page
-
-![Theme Material Dashboard PRO - Calender Page, crafted by AppSeed.](https://user-images.githubusercontent.com/51070104/209695529-f4cea8ee-68d9-4658-bb54-110ff530c8da.jpg)
-
-<br />
-
-> [Django Admin Material PRO](https://github.com/app-generator/django-admin-material-pro) - `Automotive` Page
-
-![Theme Material Dashboard PRO - Automotive Page, crafted by AppSeed.](https://user-images.githubusercontent.com/51070104/209695692-e681b3c8-fca8-4ebf-8803-2795bcd8f7d1.jpg)
+@Todo
 
 <br />
 
 ---
-**[Django Admin Material PRO](https://github.com/app-generator/django-admin-material-pro)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django Admin Argon PRO](https://github.com/app-generator/django-admin-argon-pro)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
