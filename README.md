@@ -1,22 +1,18 @@
-# **[Django Admin Argon PRO](https://github.com/app-generator/django-admin-argon-pro)**
+# **[Django Admin Argon2 PRO](https://appseed.us/product/argon-dashboard2-pro/django/)**
 
-**Django** starter styled with **Django Admin Argon PRO**, a premium `Boostrap 5` design from [Creative-Tim](https://bit.ly/3fKQZaL)
+**Django** starter styled with **[Admin Argon PRO](https://appseed.us/product/argon-dashboard2-pro/django/)**, a premium `Boostrap 5` design from [Creative-Tim](https://bit.ly/3fKQZaL)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 > 👉 **NOTE**: This product `requires a License` in order to access the theme:
 
-**Private REPO**: `git+https://github.com/app-generator/priv-django-admin-argon-pro`
-
-<br />
-
-> Source UI KIT: https://github.com/app-generator/ct-argon-dashboard-pro
+**Private REPO**: `git+https://github.com/app-generator/priv-django-admin-argon2-pro`
 
 <br />
 
 ## Features: 
 
 - **UI Kit**: Argon Dashboard BS5 PRO `v2.0.5` by Creative-Tim
-- [Django Argon PRO](https://github.com/app-generator/django-argon-dashboard-pro) - `sample project`
+- [Django Argon2 PRO](https://github.com/app-generator/django-argon-dashboard2-pro) - `sample project`
 - **Sections Covered**: 
   - `Admin Section`, reserved for `superusers`
   - `All pages` managed by `Django.contrib.AUTH`
@@ -25,7 +21,7 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-![Argon Dashboard 2 PRO](https://user-images.githubusercontent.com/51070104/210501395-be6f5408-2394-49f5-a69b-4b39c814e0a9.png)
+![Argon Dashboard 2 PRO - Charts Page (Premium Bootstrap 5 Design)](https://user-images.githubusercontent.com/51070104/211157993-fd439b20-6117-4e02-b98c-9123866660e2.jpg)
 
 <br />
 
@@ -47,17 +43,17 @@ Argon Dashboard 2 PRO makes use of light, surface and movement. The general layo
 > **Install the package** via `PIP` 
 
 ```bash
-$ pip install git+https://github.com/app-generator/priv-django-admin-argon-pro.git
+$ pip install git+https://github.com/app-generator/priv-django-admin-argon2-pro.git
 ```
 
 <br />
 
-> Add `admin_argon_pro` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
+> Add `admin_argon2_pro` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_material_pro.apps.AdminArgonProConfig',
+        'admin_argon2_pro.apps.AdminArgon2ProConfig',
         'django.contrib.admin',
     )
 ```
@@ -74,14 +70,14 @@ $ pip install git+https://github.com/app-generator/priv-django-admin-argon-pro.g
 
 <br />
 
-> Add `admin_argon_pro` urls in your Django Project `urls.py` file
+> Add `admin_argon2_pro` urls in your Django Project `urls.py` file
 
 ```python
     from django.urls import path, include
 
     urlpatterns = [
         ...
-        path('', include('admin_argon_pro.urls')),
+        path('', include('admin_argon2_pro.urls')),
     ]
 ```
 
@@ -115,9 +111,21 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## Screenshots
 
-@Todo
+![Argon Dashboard 2 PRO - Automotive (Premium Bootstrap 5 Design).](https://user-images.githubusercontent.com/51070104/211158013-fea76b79-bb54-4066-a617-5ec3b4b6ec42.jpg)
+
+<br />
+
+> [Django Argon2 PRO](https://appseed.us/product/argon-dashboard2-pro/django/) - `Charts` Page
+
+![Argon Dashboard 2 PRO - Charts (Premium Bootstrap 5 Design).](https://user-images.githubusercontent.com/51070104/211158055-f29b86dd-0119-433c-af02-5bb41c041049.jpg)
+
+<br />
+
+> [Django Argon2 PRO](https://appseed.us/product/argon-dashboard2-pro/django/) - `eCommerce` Product Page
+
+![Argon Dashboard 2 PRO - eCommerce (Premium Bootstrap 5 Design).](https://user-images.githubusercontent.com/51070104/211158098-afc2b3a6-0c2e-47ea-80d1-c26db0e80da1.jpg)
 
 <br />
 
 ---
-**[Django Admin Argon PRO](https://github.com/app-generator/django-admin-argon-pro)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django Admin Argon2 PRO](https://appseed.us/product/argon-dashboard2-pro/django/)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
