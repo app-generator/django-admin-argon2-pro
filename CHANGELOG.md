@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.6] 2023-06-19
+### Changes
+
+- Dashboard Pages, update Footer
+
 ## [1.0.5] 2023-06-19
 ### Changes
 
