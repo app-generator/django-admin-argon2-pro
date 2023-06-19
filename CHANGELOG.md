@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.7] 2023-06-19
+### Changes
+
+- Links Curation 
+
 ## [1.0.6] 2023-06-19
 ### Changes
 
