@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.8] 2023-06-19
+### Changes
+
+- BUMP Version 
+
 ## [1.0.7] 2023-06-19
 ### Changes
 
