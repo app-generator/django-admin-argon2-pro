@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [1.0.10] 2024-11-27
+### Changes
+
+- Remove `length_is` filter
+  - Deprecated in Django 5.1
+
+## [1.0.9] 2023-07-09
+### Changes
+
+- Patch #6: `Datepicker in Admin` 
+
 ## [1.0.8] 2023-06-19
 ### Changes
 
